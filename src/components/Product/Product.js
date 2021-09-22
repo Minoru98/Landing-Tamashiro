@@ -4,6 +4,7 @@ import productImgUno from '../../assets/Products/feature2.png'
 import productImgDos from '../../assets/Products/feature1.png'
 import productImgTres from '../../assets/Products/feature4.png'
 import './Product.css';
+import ItemCount from '../ItemCount/ItemCount';
 
 //Functional Component
 
@@ -17,6 +18,7 @@ const Product = (props) => {
             </div>
             <h3>AirPods</h3>
             <p>U$ 120 </p>
+            <ItemCount/>
             <button>Comprar</button>
         </div>
         <div className="container-producto">
@@ -25,6 +27,7 @@ const Product = (props) => {
             </div>
             <h3>Parlante Bose Soundlink</h3>
             <p>U$ 220</p>
+            <ItemCount/>
             <button>Comprar</button>
         </div>
         <div className="container-producto">
@@ -33,6 +36,7 @@ const Product = (props) => {
             </div>
             <h3>Sony WH-1000XM3</h3>
             <p>U$ 210</p>
+            <ItemCount/>
             <button>Comprar</button>
         </div> 
         <div className="container-producto">
@@ -41,6 +45,7 @@ const Product = (props) => {
             </div>
             <h3>Apple Watch SE</h3>
             <p>U$ 250</p>
+            <ItemCount/>
             <button>Comprar</button>
         </div>              
      </div>

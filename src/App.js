@@ -1,14 +1,18 @@
 //import './assets/logo192.png';
 import './App.css';
 //Components
-import NavBar from './components/NavBar/NavBar';
 import ListProducts from './components/ListProducts/ListProducts';
+import CartWidget from './components/CartWidget/CartWidget';
+import ItemCount from './components/ItemCount/ItemCount';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <ListProducts/>
+      <CartWidget/>
+      <ListProducts></ListProducts>  
+      <ItemCount></ItemCount> 
+
     </div>
   );
 }

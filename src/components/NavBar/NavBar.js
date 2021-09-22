@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import Cart from '@mui/icons-material/ShoppingCart';
 
 
-const NavBar = () => {
+const NavBar = (props) => {
 
   return (
     <header>
@@ -33,8 +33,8 @@ const NavBar = () => {
          <div className="cart-buttonNav">
          <Button variant="contained">
          <Cart> Start </Cart>
+          <p>1</p>
          </Button>
-         <p>1</p>
          </div>
         </Toolbar>
       </AppBar>   
